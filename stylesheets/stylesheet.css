@@ -454,18 +454,6 @@ header {
   border-bottom: solid 1px #275da1;
 }
 
-h1.author.vcard {
-width: 400px;
-height: 400px;
-text-indent: -99999px;
-background-image: url(‘images/main-piccolo-standing.png’);
-background-repeat: no-repeat;
-background-position: center center;
-background-size: contain;
-margin: 0 auto;
-}
-
-
 header h1 {
   width: 540px;
   margin-top: 0;
@@ -541,20 +529,7 @@ a.button small {
   display: block;
   font-size: 11px;
 }
-header a.button {
-  position: absolute;
-  top: 0;
-  right: 0;
-  background: transparent url(../images/github-button.png) 0 0 no-repeat;
-}
-aside a.button {
-  display: block;
-  width: 138px;
-  padding-left: 64px;
-  margin-bottom: 20px;
-  font-size: 21px;
-  background: transparent url(../images/download-button.png) 0 0 no-repeat;
-}
+
 
 code, pre {
   margin-bottom: 30px;
