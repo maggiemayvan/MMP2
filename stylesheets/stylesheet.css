@@ -451,8 +451,7 @@ header {
   padding-top: 40px;
   padding-bottom: 40px;
   font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
-  background: "images/main-piccolo-standing.png" 
-  max-width="100%"
+  background: green
   border-bottom: solid 1px #275da1;
 }
 
