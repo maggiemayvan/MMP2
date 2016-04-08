@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
+
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+		    <title>The Adventures of Maggie May and Piccolo Too!</title>
+		    <link rel="stylesheet" href="stlyes/main.css">
+		<!-- Latest compiled and minified CSS -->
+		     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+		<!-- Optional theme -->
+		      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+ </head>
+<body>
+ <div id="navbar-full">
+    <div id="navbar">
+    <!--    
+        navbar-default can be changed with navbar-ct-blue navbar-ct-azzure navbar-ct-red navbar-ct-green navbar-ct-orange  
+        -->
+        <nav class="navbar navbar-ct-green navbar-transparent navbar-fixed-top" role="navigation">
+          <div class="alert alert-success hidden">
+          </div>
+          
+          <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#"><span class="glyphicon glyphicon-home" aria-hidden="true"></span></a>
+            </div>
+        
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav">
+                   <li class="active"><a href="http://www.facebook.com/maggiemayvan"><span class="glyphicon glyphicon-heart" aria-hidden="true"></span></a></li>
+                <li class="dropdown">
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span> <b class="caret"></b></a>
+                      <ul class="dropdown-menu">
+                        <li><a href="#">Meet the Author</a></li>
+                        <li><a href="#">Meet the Illustrator</a></li>
+                        <li><a href="#">Maggie's Travels</a></li>
+                        <li><a href="#">Piccolo's Corner</a></li>
+                        <li><a href="#">Friends of Maggie</a></li>
+                        <li class="divider"></li>
+                        <li><a href="#">Contact Us</a></li>
+                      </ul>
+                </li>
+              </ul>
+ 
+              <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">Buy a Book!</a></li>
+               </ul>
+              
+            </div><!-- /.navbar-collapse -->
+          </div><!-- /.container-fluid -->
+        </nav>
+     <div class="blurred-container">
+            <div class="img-src" style="background-image: url('assets/img/bg.jpg')"></div>
+        </div>
+    </div><!--  end navbar -->
+
+</div> <!-- end menu-dropdown -->
+        
+<div class="video" style="background-image: url('images/vid-bg.png')">
+
+        <video id="video_background" preload="auto" autoplay="true" muted="muted" volume="0">
+
+            <source src="images/meetauthor.webm" type="video/webm">
+
+            <source src="images/meetauthor.mp4" type="video/mp4">
+
+            Video not supported 
+
+        </video>
+
+    <div class="cover black" data-color="black"></div>
+</div>
+
+        
+<nav>
+  <ul class="pager">
+    <li><a href="#">Previous</a></li>
+    <li><a href="#">Next</a></li>
+  </ul>
+</nav>
+
+<div class="row">
+  <div class="col-xs-6 col-sm-3"><img src="images/restoration-thumb.png" class="img-responsive" alt="Maggie's Restoration">
+<button type="button" class="btn btn-success btn-lg btn-block">Maggie's Restoration</button>
+	Follow the real Maggie May's makeover since Day 1 on that "old forgotten lot" (just like in the story)!</div>
+  <div class="col-xs-6 col-sm-3"><img src="images/piccolo-thumb.png" class="img-responsive" alt="Piccolo's Corner">
+<button type="button" class="btn btn-success btn-lg btn-block">Piccolo's Corner</button>
+	Take a look at the real life of Piccolo, the spunky rescue dog!</div>
+
+  <!-- Add the extra clearfix for only the required viewport -->
+  <div class="clearfix visible-xs-block"></div>
+
+  <div class="col-xs-6 col-sm-3"><img src="images/travels-thumb.png" class="img-responsive" alt="Maggie's Travels"><button type="button" class="btn btn-success btn-lg btn-block">Maggie's Travels</button>
+  	Want to know where Maggie has been ? did you spot her? Or have some travel stories of your own? Share here!</div>
+  <div class="col-xs-6 col-sm-3"><img src="images/friends-thumb.png" class="img-responsive" alt="Friends of Maggie"><button type="button" class="btn btn-success btn-lg btn-block">Friends of Maggie</button>
+  	Click here to meet some of our friends and make some news ones!</div>
+</div>
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+      </div>
+    </div>
+
+  </body>
+</html>
+Status API Training Shop Blog About
