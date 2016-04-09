@@ -950,7 +950,7 @@ figure.snip1470 a {
 
 figure.snip1470:hover > img,
 figure.snip1470.hover > img {
-  opacity: 0.7;
+  opacity: 0.5;
 }
 
 figure.snip1470:hover figcaption,
