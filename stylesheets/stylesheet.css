@@ -876,6 +876,7 @@ footer a:hover {
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 @media only screen and (max-width: 479px) { }
 
+
 @import url(https://fonts.googleapis.com/css?family=Josefin+Sans);
 @import url(https://fonts.googleapis.com/css?family=Cardo);
 figure.snip1470 {
@@ -887,7 +888,7 @@ figure.snip1470 {
   min-width: 230px;
   max-width: 315px;
   width: 100%;
-  color: #ffffff;
+  color: #ff851b;
   text-align: center;
   font-size: 14px;
   background-color: #000000;
