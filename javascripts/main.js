@@ -6,7 +6,7 @@
       green = document.querySelector(".green"),
       blue = document.querySelector(".blue"),
       orange = document.querySelector(".orange"),
-      maggie = document.querySelector(".airplane"),
+      maggie = document.querySelector(".maggie"),
       clouds = document.querySelector(".clouds");
 
   // create an object for each element
@@ -52,7 +52,7 @@
     theGreenCloud: greenCloud,
     theBlueCloud: blueCloud,
     theOrangeCloud: orangeCloud,
-    theAirplane: plane
+    theMaggie: maggie
   };
 
   // move the items based on the mouse x position
