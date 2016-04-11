@@ -6,7 +6,7 @@
       green = document.querySelector(".green"),
       blue = document.querySelector(".blue"),
       orange = document.querySelector(".orange"),
-      maggie = document.querySelector(".maggie"),
+      airplane = document.querySelector(".airplane"),
       clouds = document.querySelector(".clouds");
 
   // create an object for each element
@@ -40,9 +40,9 @@
   };
 
   var plane = {
-    handle: maggie,
-    xPosition: maggie.offsetLeft,
-    yPosition: maggie.offsetTop,
+    handle: airplane,
+    xPosition: airplane.offsetLeft,
+    yPosition: airplane.offsetTop,
     parallax: 0.7
   };
 
@@ -52,7 +52,7 @@
     theGreenCloud: greenCloud,
     theBlueCloud: blueCloud,
     theOrangeCloud: orangeCloud,
-    theMaggie: maggie
+    theAirplane: plane
   };
 
   // move the items based on the mouse x position
@@ -83,7 +83,7 @@
   // then update each object's xPosition value
   var centerElements = function(event) {
     clouds.style.left = (window.innerWidth / 2) - (clouds.offsetWidth / 4) + "px";
-    maggie.style.left = (window.innerWidth / 2) - (maggie.offsetWidth / 2) + "px";
+    airplane.style.left = (window.innerWidth / 2) - (airplane.offsetWidth / 2) + "px";
     
     resetXPositions();
   };
