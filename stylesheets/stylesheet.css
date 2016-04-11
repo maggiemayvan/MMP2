@@ -6199,14 +6199,16 @@ button.close {
 }
 /*# sourceMappingURL=bootstrap.css.map */
 
-.about, .background {
+
+
+.container, .background {
   width: 1000px;
   height: 768px;
   margin: 0 auto;
 }
 
 .background {
-  background: url(images/bg-about.png)
+  background: url(http://thevisualdeveloper.com/wp-content/uploads/2015/06/background.png)
     no-repeat;
 }
 
@@ -6250,8 +6252,8 @@ button.close {
   z-index: 2;
 }
 
-.maggie {
-  content: url(images/about-maggie);
+.airplane {
+  content: url(http://thevisualdeveloper.com/wp-content/uploads/2015/06/skyhawk-1024x3261.png);
   position: absolute;
   top: 300px;
   left: 332px;
