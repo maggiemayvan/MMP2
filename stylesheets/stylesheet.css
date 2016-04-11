@@ -6199,6 +6199,8 @@ button.close {
 }
 /*# sourceMappingURL=bootstrap.css.map */
 
+
+
 html,body,.content, .content > .wrapper {
   height: 100%;
   width: 100%;
@@ -6240,7 +6242,29 @@ html,body {
   text-transform: uppercase;
 }
 
-.wheel-1, .wheel-2, .smog, .pig, .house, .tree, .cloud {
+.wheel-1 {
+  display: block;
+  /* (c) Svetlana Linuxenko */
+  background-image : url(images/wheel-1.png); 
+  background-repeat: no-repeat;
+}
+
+
+.wheel-2 {
+  display: block;
+  /* (c) Svetlana Linuxenko */
+  background-image : url(images/wheel-2.png); 
+  background-repeat: no-repeat;
+}
+
+.pig {
+  display: block;
+  /* (c) Svetlana Linuxenko */
+  background-image : url(images/maggie.png); 
+  background-repeat: no-repeat;
+}
+
+.cloud {
   display: block;
   /* (c) Svetlana Linuxenko */
   background-image : url(http://www.linuxenko.pro/showcase/peter/petr.png); 
@@ -6287,22 +6311,6 @@ html,body {
   animation: wheel 1s linear infinite;
 }
 
-.smog {
-  position: absolute;
-  top: -35px;
-  right: 26px;
-  width: 83px;
-  height: 87px;
-  background-position: 0px -274px;
-  opacity: 0.8;
-  animation: smoge 0.8s ease-in infinite;
-}
-
-@keyframes smoge {
-  from { top : -35px;}
-  to { top: -50px; }
-}
-
 @keyframes bounce {
   from { top : 0px;}
   to { top: -10px; }
@@ -6326,87 +6334,6 @@ html,body {
   z-index: 5;
 }
 
-.house-1 {
-  display: block;
-  position: absolute;
-  top: -37px;
-  left: 500px;
-  width: 74px;
-  height: 62px;
-  background-position: -272px -4px;
-  z-index: 4;
-  animation: house1 30s linear infinite;
-}
-
-
-@keyframes house1 {
-  from { left: 80%; top: -20px;}
-  to {left: 0%; top: 20px;}
-}
-
-.house-2, .house-3, .house-4 {
-  display: block;
-  position: absolute;
-  top: -10px;
-  left: 300px;
-  width: 28px;
-  height: 41px;
-  background-position: -274px -90px;
-  animation: house2 50s linear infinite;
-}
-
-.house-3 {
-  animation: house3 60s linear infinite;
-}
-
-.house-4 {
-  animation: house3 90s linear infinite;
-}
-
-@keyframes house2 {
-  from { left: 48%; top: -20px;}
-  to {left: 0%; top: 20px;}
-}
-
-
-@keyframes house3 {
-  from { left: 80%; top: -10px;}
-  to {left: 0%; top: 0px;}
-}
-
-
-.tree-1 {
-  display: block;
-  position: absolute;
-  top: 20px;
-  left: 0px;
-  width: 20px;
-  height: 28px;
-  background-position: -319px -79px;
-  z-index: 3;
-  animation: tree1 25s linear infinite;
-}
-
-.tree-2, .tree-3 {
-  display: block;
-  position: absolute;
-  top: 10px;
-  left: 500px;
-  width: 22px;
-  height: 26px;
-  background-position: -318px -116px;
-  z-index: 3;
-  animation: tree1 40s linear infinite;
-}
-
-.tree-3  {
-  animation: tree1 38s linear infinite;
-}
-
-@keyframes tree1 {
-  from { left: 80%;}
-  to {left: 0%;}
-}
 
 .cloud-1 {
   display: block;
