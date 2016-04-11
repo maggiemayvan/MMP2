@@ -6198,3 +6198,68 @@ button.close {
   }
 }
 /*# sourceMappingURL=bootstrap.css.map */
+
+.about, .background {
+  width: 1000px;
+  height: 768px;
+  margin: 0 auto;
+}
+
+.background {
+  background: url(images/bg-about.png)
+    no-repeat;
+}
+
+.clouds {
+  position: absolute;
+  top: 275px;
+  left: 390px;
+  width: 1000px;
+  height: 768px;
+}
+
+.green {
+  content: url(http://thevisualdeveloper.com/wp-content/uploads/2015/06/greencloud1.png);
+  position: absolute;
+  top: -350px;
+  left: -25px;
+  z-index: 3;
+}
+
+.white {
+  content: url(http://thevisualdeveloper.com/wp-content/uploads/2015/06/whitecloud1.png);
+  position: absolute;
+  top: -300px;
+  left: -250px;
+  z-index: 0;
+}
+
+.blue {
+  content: url(http://thevisualdeveloper.com/wp-content/uploads/2015/06/bluecloud1.png);
+  position: absolute;
+  top: -125px;
+  left: 100px;
+  z-index: 1;
+}
+
+.orange {
+  content: url(http://thevisualdeveloper.com/wp-content/uploads/2015/06/orangecloud1.png);
+  position: absolute;
+  top: -235px;
+  left: -350px;
+  z-index: 2;
+}
+
+.maggie {
+  content: url(images/about-maggie);
+  position: absolute;
+  top: 300px;
+  left: 332px;
+  width: 616px;
+  height: 228px;
+  z-index: 10;
+  -webkit-transform: scale(0.7);
+  transform: scale(.7);
+  -webkit-filter: drop-shadow(20px 30px 30px rgba(0,0,0,.5));
+  filter: drop-shadow(20px 30px 30px rgba(0,0,0,.5));
+}
