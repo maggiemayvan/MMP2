@@ -6199,3 +6199,20 @@ button.close {
 }
 /*# sourceMappingURL=bootstrap.css.map */
 
+#videosList {
+ max-width: 600px; 
+  overflow: hidden;
+}
+
+.video {
+  background-image: url('images/shelby-still.png');
+  height: 330px;
+  width: 600px;
+  margin-bottom: 50px;
+}
+
+/* Hide Play button + controls on iOS */
+video::-webkit-media-controls {
+    display:none !important;
+}
+
