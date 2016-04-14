@@ -6211,10 +6211,10 @@ figure.snip0051 {
   position: relative;
   float: left;
   overflow: hidden;
-  margin: 10px 1%;
-  min-width: 220px;
+  margin: 5px 1%;
+  min-width: 400px;
   max-width: 600px;
-  max-height: 800px;
+  max-height: 900px;
   width: 50%;
   background: #000000;
 }
