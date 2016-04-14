@@ -6198,6 +6198,12 @@ button.close {
   }
 }
 /*# sourceMappingURL=bootstrap.css.map */
+
+
+
+
+
+
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,200,300,800);
 @import url(http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
 figure.snip0051 {
@@ -6209,7 +6215,7 @@ figure.snip0051 {
   min-width: 220px;
   max-width: 480px;
   max-height: 800px;
-  width: 100%;
+  width: 50%;
   background: #000000;
 }
 figure.snip0051 * {
