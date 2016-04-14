@@ -6225,7 +6225,7 @@ figure.snip0051 * {
 figure.snip0051 > img {
   margin-left: 50%;
   opacity: 1;
-  width: 60%;
+  width: 50%;
   filter: blur(0px);
   -webkit-transition: all 0.35s;
   transition: all 0.35s;
@@ -6234,7 +6234,7 @@ figure.snip0051 figcaption {
   left: 0;
   position: absolute;
   top: 0;
-  width: 40%;
+  width: 50%;
   height: 100%;
   background: #ffffff;
 }
