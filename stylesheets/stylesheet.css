@@ -6223,7 +6223,7 @@ figure.snip0051 * {
   box-sizing: border-box;
 }
 figure.snip0051 > img {
-  margin-left: 0%;
+  margin-left: 50%;
   opacity: 1;
   width: 60%;
   filter: blur(0px);
