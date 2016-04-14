@@ -6198,3 +6198,230 @@ button.close {
   }
 }
 /*# sourceMappingURL=bootstrap.css.map */
+
+/**
+UTILS Library 
+**/
+
+/** vars **/
+@grid5: 300px;
+@grid8: 495px;
+@grid13: 820px;
+
+/** Type Mixins **/
+.captioned-default-header() {
+  h3 {
+    font-family: arial narrow, sans-serif, helvetica;
+    font-size: 1.8em;
+    font-weight: bold;
+    margin-bottom: .25em;
+  }  
+}
+.captioned-filter-header() {
+  h2 {
+    font-family: arial narrow, sans-serif, helvetica;
+    font-size: 2.4em;
+    font-weight: bold;
+    margin-bottom: .25em;
+    color: gold;
+  }
+}
+
+.caption-text(){
+  p {
+    font-family: arial narrow, sans-serif, helvetica;
+    font-size: 1.4em;
+    line-height: 1.2em;
+    margin: .75em 0;
+  }
+}
+
+@font-face {
+      font-family: "dailybeasticonfont";
+      src: url("http://f.cl.ly/items/3O1T2C1z210c091s2p2s/dailybeast-icon-font.svg");
+}
+
+/** Structural MIXINS **/
+.max-image-height() {
+    height: 600px;
+    max-height: 600px;
+}
+
+.absCentering() {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  .translate(-50%, -50%);
+}
+.absDefault(){
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+.absBottom10(){
+  position: absolute;
+  left: 0;
+  bottom: 10%;
+}
+
+/** State Change MIXINS (state-change-mixins.less) **/
+.translate(@x, @y) {
+  -webkit-transform: translate(@x, @y);
+  -moz-transform: translate(@x, @y);
+  -ms-transform: translate(@x, @y);
+}
+
+.transition() {
+  -webkit-transition: opacity 0.2s ease-in-out;
+  -moz-transition: opacity 0.2s ease-in-out;
+  -ms-transition: opacity 0.2s ease-in-out;
+  -o-transition: opacity 0.2s ease-in-out;
+  transition: opacity 0.2s ease-in-out;
+}
+
+/** Component MIXINS (component-mixins.less) **/
+.caption-default() {
+  figcaption:first-of-type {
+    display:table;
+    width:200px;
+    min-height:180px;
+    height:180px;
+    padding:0 20px 0 20px;
+    color: #fff;
+    background: #000;
+    .absBottom10;
+  }
+  figcaption .tb-centered {
+    display: table-cell;
+    vertical-align: middle;
+  }
+}
+.caption-filter(){
+  .caption-filter {
+    min-height: 180px;
+    height: 100%;
+    width: 100%;    
+    background: #000;
+    background: 0 0 rgba(0,0,0,0.78);
+    padding: 22px 20px 22px 20px;
+    color: #fff;
+    opacity: 0;
+    .absDefault;
+    .caption-text;
+    .absCentered {
+      .absCentering;   
+    }
+    a {
+      color: gold;
+      font-family: arial narrow, sans-serif, helvetica;
+      text-transform: uppercase;
+      text-decoration: none;
+    }
+  }
+  .caption-filter:hover {
+    opacity: 1;    
+  }
+  
+}
+
+.credits() {
+  font-size: .60em;
+  line-height: 1.4em;
+  width: 92%;
+  margin: 0 auto;
+  clear: left;
+  display: block;
+  padding: 6px 10px;
+  border-radius: 2px;
+  border: solid 1px #aaaaaa;
+  color: #aaaaaa;
+  font-family: "Arial", "Serif";
+}
+
+.play-button() {
+  font-family: "dailybeasticonfont";
+  &:after {
+    font-family: "dailybeasticonfont";
+    display: block;
+   font-size: 20px;
+    content: "\e003";
+    position: absolute;
+    top:0;
+  }
+}
+
+/** WIDGET MIXINS **/
+.captioned-layered() {
+  .max-image-height; 
+  text-align: center;
+  position: relative;
+  overflow: hidden; /* clip image overflow */
+  .caption-default;
+  .caption-filter;  
+}
+
+/* This would live in images.less or captions.less */
+.captioned-layered-figure {
+  .captioned-default-header;
+  .captioned-filter-header;
+  .captioned-layered;
+  img { height: 600px; }
+  float: left;  
+  margin: 10px 0 10px 25px;
+}
+
+.captioned-layered-video {
+  .captioned-default-header;  
+  .max-image-height; 
+  text-align: center;
+  position: relative;
+  overflow: hidden; /* clip image overflow */
+  .caption-default;
+  img { height: 600px; }
+  float: left;  
+  margin: 10px 0 10px 25px;
+}
+
+credits { .credits; }
+
+.captioned-layered-figure.grid5 { width: @grid5; }
+.captioned-layered-figure.grid8 { width: @grid8; }
+
+.captioned-layered-video.grid13,
+.captioned-layered-figure.grid13 { width: @grid13; }
+
+.captioned-layered-figure.no-image { 
+  background: #000; 
+  figcaption:first-of-type {
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+  }
+  .caption-filter {
+    background: 0 0 rgba(0,0,0,0.85);
+  }
+}
+
+.captioned-layered-figure.no-image:hover {
+  background: transparent;
+}
+
+.captioned-layered-video {
+  .play-button;
+}
+
+p { clear: both; }
+
+.row {
+  margin: 0 auto;
+  width: 92%;
+}
+
+/***
+Caption Hover State
+***/
+.captioned-layered-video:hover figcaption:first-of-type,
+.captioned-layered-figure:hover figcaption:first-of-type {
+  opacity: 0;
+}
