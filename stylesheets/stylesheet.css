@@ -6208,7 +6208,7 @@ figure.snip0051 {
   margin: 10px 1%;
   min-width: 220px;
   max-width: 480px;
-  max-height: 240px;
+  max-height: 800px;
   width: 100%;
   background: #000000;
 }
@@ -6294,8 +6294,8 @@ figure.snip0051:after {
   position: absolute;
   top: 50%;
   left: 50%;
-  height: 90px;
-  width: 50px;
+  height: 35px;
+  width: 35px;
   background-color: #000000;
   content: '';
   -webkit-transform: rotate(45deg) translate(-50%, -50%);
