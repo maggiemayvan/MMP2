@@ -6294,8 +6294,8 @@ figure.snip0051:after {
   position: absolute;
   top: 50%;
   left: 50%;
-  height: 35px;
-  width: 35px;
+  height: 90px;
+  width: 50px;
   background-color: #000000;
   content: '';
   -webkit-transform: rotate(45deg) translate(-50%, -50%);
