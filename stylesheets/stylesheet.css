@@ -6215,7 +6215,7 @@ figure.snip0051 {
   min-width: 400px;
   max-width: 400px;
   max-height: 700px;
-  width: 30%;
+  width: 100%;
   background: #000000;
 }
 figure.snip0051 * {
@@ -6234,7 +6234,7 @@ figure.snip0051 figcaption {
   left: 0;
   position: absolute;
   top: 0;
-  width: 50%;
+  width: 25%;
   height: 100%;
   background: #ffffff;
 }
