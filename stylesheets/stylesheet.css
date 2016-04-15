@@ -6210,10 +6210,10 @@ figure.snip0051 {
   font-family: 'Raleway', Arial, sans-serif;
   position: relative;
   float: right;
-  overflow: inital;
+  overflow: hidden;
   margin: 5px 1%;
-  min-width: 400px;
-  max-width: 400px;
+  min-width: 500px;
+  max-width: 500px;
   max-height: 700px;
   width: 100%;
   background: #000000;
