@@ -6385,7 +6385,7 @@ figure.snip0051.hover a:nth-child(3) i {
 }
 
 .module {
-	display: inline-block;
+	display: block;
 	list-style: none;
 	padding: 0px;
 }
@@ -6397,9 +6397,8 @@ figure.snip0051.hover a:nth-child(3) i {
 .vignette{
   position: absolute;
   width: 100%;
-  margin: 0 auto;
+  margin: 0;
   cursor: pointer;
-  margin-top: 0px;
 }
 
 .vignette img{
