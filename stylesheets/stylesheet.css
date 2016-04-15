@@ -6371,20 +6371,58 @@ figure.snip0051.hover a:nth-child(3) i {
 
 
 
-@media only screen and (min-width: 720px) {
-  .boxes {
-    display: block;
-    width: 100%;
-  }
 
-  .box-row {
-    display: table-row;
-  }
 
-  .box-cell {
-    display: table-cell;
-    vertical-align: top;
-    width: 33.333333333%;
-  }
+
+* {
+	box-sizing: border-box;
 }
+
+.grid {
+	padding: 1em 1em 0 1em;
+	margin: 0;
+	column-count: 3;
+	column-gap: 2em;
+}
+
+.module {
+	display: inline-block;
+	list-style: none;
+	padding: 20px;
+}
+
+@media screen and (max-width: 960px) {
+	.grid {
+		column-count: 3;
+	}
+}
+
+.vignette{
+  position: absolute;
+  width: 500px;
+  max-width: 33%;
+  margin: 0 auto;
+  cursor: pointer;
+  margin-top: 0px;
+}
+
+.vignette img{
+  position: absolute;
+  width: 100%;
+}
+
+.vignette .overlay{
+  opacity: 0;
+  transition: opacity 2s;
+}
+
+.vignette:hover .overlay{
+  opacity: 1;
+}
+  
+  
+  
+  
+  
+  
   
