@@ -6370,20 +6370,21 @@ figure.snip0051.hover a:nth-child(3) i {
 
 
 
+.container-about {
+    -webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
 
-
+    -webkit-column-gap: 0px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 0px; /* Firefox */
+    column-gap: 0px;
+}
 
 
 * {
 	box-sizing: border-box;
 }
 
-.container-about {
-  padding-right: 0px;
-  padding-left: 0px;
-  margin-right: auto;
-  margin-left: auto;
-}
 
 .grid {
 	margin: 0;
