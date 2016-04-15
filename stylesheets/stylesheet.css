@@ -6373,7 +6373,7 @@ figure.snip0051.hover a:nth-child(3) i {
 
 @media only screen and (min-width: 720px) {
   .boxes {
-    display: table;
+    display: block;
     width: 100%;
   }
 
