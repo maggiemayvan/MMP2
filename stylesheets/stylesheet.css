@@ -6378,6 +6378,13 @@ figure.snip0051.hover a:nth-child(3) i {
 	box-sizing: border-box;
 }
 
+.container-about {
+  padding-right: 0px;
+  padding-left: 0px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 .grid {
 	margin: 0;
 	column-count: 3;
@@ -6415,7 +6422,7 @@ figure.snip0051.hover a:nth-child(3) i {
   opacity: 1;
 }
   
-  
+ 
   
   
   
