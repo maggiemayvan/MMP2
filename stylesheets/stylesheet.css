@@ -6381,7 +6381,7 @@ figure.snip0051.hover a:nth-child(3) i {
 .grid {
 	margin: 0;
 	column-count: 3;
-	column-gap: none;
+	column-gap: 0;
 }
 
 .module {
