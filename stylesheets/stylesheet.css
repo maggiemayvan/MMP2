@@ -6388,14 +6388,12 @@ figure.snip0051.hover a:nth-child(3) i {
 .module {
 	display: inline-block;
 	list-style: none;
-	padding: 20px;
+	padding: 0px;
 }
 
-@media screen and (max-width: 960px) {
 	.grid {
 		column-count: 3;
-	}
-}
+	
 
 .vignette{
   position: absolute;
