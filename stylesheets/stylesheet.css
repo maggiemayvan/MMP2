@@ -6365,3 +6365,26 @@ figure.snip0051.hover a:nth-child(3) i {
   -webkit-transition-delay: 0.3s;
   transition-delay: 0.3s;
 }
+
+
+
+
+
+
+@media only screen and (min-width: 720px) {
+  .boxes {
+    display: table;
+    width: 100%;
+  }
+
+  .box-row {
+    display: table-row;
+  }
+
+  .box-cell {
+    display: table-cell;
+    vertical-align: top;
+    width: 33.333333333%;
+  }
+}
+  
