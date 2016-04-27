@@ -12,13 +12,6 @@ html {
   -ms-text-size-adjust: 100%; /* 2 */
 }
 
-/**
- * Remove default margin.
- */
-
-body {
-  margin: 40;
-}
 
 /* HTML5 display definitions
    ========================================================================== */
@@ -166,7 +159,6 @@ sub,
 sup {
   position: relative;
   font-size: 75%;
-  line-height: 0;
   vertical-align: baseline;
 }
 
@@ -452,7 +444,7 @@ a:hover {
 }
 
 header {
-  padding-top: 40px;
+  padding-top: 400px;
   padding-bottom: 40px;
   font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
   border-bottom: solid 1px #275da1;
