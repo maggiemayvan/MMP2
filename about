@@ -13,7 +13,7 @@
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-		    <title>About!</title>
+		    <title>The Adventures of Maggie May and Piccolo Too!</title>
 		    <link rel="stylesheet" href="stlyes/main.css">
 		<!-- Latest compiled and minified CSS -->
 		     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
@@ -22,7 +22,6 @@
 		      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
  </head>
 <body>
-<header>
  <div id="navbar-full">
     <div id="navbar">
     <!--    
@@ -76,6 +75,142 @@
 
 </div> <!-- end menu-dropdown -->
         
+<div class="video">
+
+        <video id="video_background" preload="auto" autoplay="true" muted="muted" volume="0">
+
+            <source src="images/bark-book1.webm" type="video/webm">
+
+            <source src="images/bark-book1.mp4" type="video/mp4">
+
+            Video not supported 
+
+        </video>
+
+    <div class="cover black" data-color="black"></div>
+</div>
+
+        
+<nav>
+  <ul class="pager">
+    <li><a href="#">Previous</a></li>
+    <li><a href="meetfrank.html">Next</a></li>
+  </ul>
+</nav>
+
+
+
+<div class="container-projects bg-primary">
+    <div class="container">
+        <h1 id="projects" class="text-center">MAGGIE MAY'S TRAVELS</h1>
+        <br /><br />
+
+<div class="row">
+  <div class="col-xs-6 col-sm-3">
+	<figure class="snip1470"><img src="images/restoration-thumb.png" class="img-responsive" alt="Maggie's Restoration!" />
+  <figcaption>
+    <h3>Maggie's Restoration!</h3>
+  </figcaption>
+  <a href="#"></a>
+</figure>
+</div>
+
+  <div class="col-xs-6 col-sm-3">
+	<figure class="snip1470"><img src="images/friends-thumb.png" class="img-responsive" alt="Maggie's Friends!" />
+  <figcaption>
+    <h3>Friends of Maggie May!</h3>
+  </figcaption>
+  <a href="#"></a>
+</figure>
+</div>
+
+  <div class="col-xs-6 col-sm-3">
+	<figure class="snip1470"><img src="images/travels-thumb.png" class="img-responsive" alt="Maggie's Travels!" />
+  <figcaption>
+    <h3>Oh! The Places We Go!</h3>
+  <a href="#"></a>
+</figure>
+</div>
+
+  <div class="col-xs-6 col-sm-3">
+	<figure class="snip1470"><img src="images/gathering-thumb.png" class="img-responsive" alt="Maggie's Restoration!" />
+  <figcaption>
+    <h3>VW Gatherings!</h3>
+  <a href="#"></a>
+</figure>
+</div>
+</div>
+
+  <!-- Add the extra clearfix for only the required viewport -->
+  <div class="clearfix visible-xs-block"></div>
+
+ <div class="clearfix hidden-xs" style="width:100%; height:50px;">
+</div>
+
+
+
+
+  <!-- Add the extra clearfix for only the required viewport -->
+  <div class="clearfix visible-xs-block"></div>
+
+ <div class="clearfix hidden-xs" style="width:100%; height:50px;"></div>
+</div>
+
+
+<div class="container-team bg-warning" style="width:100%; height:auto;>
+    <div class="container">
+        <h1 id="team" class="text-center">TEAM</h1>
+        <br /><br /><br />
+        <div class="row">
+            <div class="col-md-6 text-center">
+<figure class="snip0051">
+	           <div class="video">
+        <video id="video_background" preload="auto" autoplay="true" muted="muted" volume="0" loop="loop">
+            <source src="images/frank-laugh.webm" type="video/webm">
+            <source src="images/frank-laugh.mp4" type="video/mp4">
+            Video not supported 
+        </video>
+    <div class="cover black" data-color="black"></div>
+</div>
+	<div class="icons">
+		<a href="#"><i class="ion-ios-home-outline"></i></a>
+		<a href="#"><i class="ion-ios-email-outline"></i></a>
+		<a href="#"><i class="ion-ios-telephone-outline"></i></a>
+	</div>
+	<figcaption>
+			<h2>Frank <span>McSorley</span></h2>
+		<p>Frank McSorley is the author of the book series! His other hobbies include, but are not limited to: riding 
+motorcycles, making delicious fruit snacks, going on super cool underwater adventures, and of course, driving all over in Maggie May with 
+Piccolo right by his side!</p>
+	</figcaption>	
+</figure> 
+            </div>
+            <div class="col-md-6 text-center">
+ 
+ <figure class="snip0051">
+	           <div class="video">
+        <video id="video_background" preload="auto" autoplay="true" muted="muted" volume="0" loop="loop">
+            <source src="images/shelby-flip.webm" type="video/webm">
+            <source src="images/shelby-flip.mp4" type="video/mp4">
+            Video not supported 
+        </video>
+    <div class="cover black" data-color="black"></div>
+</div>
+	<figcaption>
+			<div class="icons">
+		<a href="#"><i class="ion-ios-home-outline"></i></a>
+		<a href="#"><i class="ion-ios-email-outline"></i></a>
+		<a href="#"><i class="ion-ios-telephone-outline"></i></a>
+	</div>
+		<p>Shelby is the illustrator of the book series. If there's anything she's learned from working on this project, it's that trying something new and gaining new skills can turn your whole life upside down!!! </p>
+		<h2>Shelby <span>Van Cleef</span></h2>
+	</figcaption>
+</figure> 
+        </div>
+    </div>
+    <div class="clearfix hidden-xs" style="width:100%; height:50px;"></div>
+</div>
+<section>
 <div class="row" style="width:100%; height:100%;">
   	<div class="col-sm-4">
     		<div class="vignette">
@@ -83,14 +218,12 @@
 			<img src="images/1_2.png" alt="" class="overlay" />
 		</div>
 	</div>
-
   	<div class="col-sm-4">
     		<div class="vignette">
   			<img src="images/2.png" alt="" class="underlay" />
   			<img src="images/2_2.png" alt="" class="overlay" />
 		</div>
 	</div>
-
   	<div class="col-sm-4">
     		<div class="vignette">
   			<img src="images/3.png" alt="" class="underlay" />
@@ -98,10 +231,13 @@
 		</div>
 	</div>
 </div>
-
-    </header>
-<section>
 </section>
-
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+      </div>
+    </div>
+    
+    
+   
   </body>
-  </html>
+</html>
