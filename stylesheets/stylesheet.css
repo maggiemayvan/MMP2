@@ -25,10 +25,9 @@
   opacity: 1;
 }
   
-  
-  
-  
-  
+  .clearfix {
+  overflow: auto;
+}
   
   
   
@@ -43,7 +42,7 @@
 }
 
 .portfolio-list {
-		margin: 500rem;
+		margin: 0;
 		padding: 0;
 		list-style: none;
 }
