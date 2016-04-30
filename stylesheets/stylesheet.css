@@ -3,10 +3,6 @@
 	box-sizing: border-box;
 }
 
-div {
-    overflow: scroll;
-}
-
 .vignette{
 position: absolute;
   width: 100%;
