@@ -6,6 +6,7 @@ body {
 
 .row  {
     display: table-row;
+    width: 100%;
     }
 
 
