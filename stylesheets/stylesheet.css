@@ -50,11 +50,7 @@
 
 .hovereffect .overlay:before {
   position: absolute;
-  top: 20px;
-  right: 20px;
-  bottom: 20px;
-  left: 20px;
-  border: 1px solid #fff;
+
   content: '';
   opacity: 0;
   filter: alpha(opacity=0);
