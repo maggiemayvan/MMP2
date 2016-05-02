@@ -9,7 +9,8 @@ body {
   height: 100%;
   float: left;
   overflow: hidden;
-  font-family: Trebuchet MS, sans-serif;
+  font-family: Trebuchet MS, sans-serif, bold;
+  text-align: center;
   color: #fff;
   position: relative;
   text-align: center;
