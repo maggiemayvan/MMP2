@@ -72,8 +72,8 @@
 
 .hovereffect a, .hovereffect p {
   color: #000000;
-  font-family: 'Raleway', Arial, sans-serif;
-  font-size: 20px;
+  font-family: 'Raleway', Arial, sans-serif, bold;
+  font-size: 30px;
   opacity: 0;
   filter: alpha(opacity=0);
   -webkit-transition: opacity 0.35s, -webkit-transform 0.45s;
