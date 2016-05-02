@@ -11,8 +11,7 @@ body {
   height: 100%;
   float: left;
   overflow: hidden;
-  font-family: "Raleway", sans-serif, bold;
-text-shadow: 2px 2px #0000;
+  font-family: 'Raleway', sans-serif;
   text-align: center;
   color: #fff;
   position: relative;
