@@ -4,12 +4,14 @@ body {
   background: linear-gradient(45deg, #ff89e9 0%,#05abe0 100%);
 }
 
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,200,300,800);
+
 .hovereffect {
   width: 100%;
   height: 100%;
   float: left;
   overflow: hidden;
-  font-family: Trebuchet MS, sans-serif, bold;
+  font-family: "Raleway", sans-serif, bold;
 text-shadow: 2px 2px #0000;
   text-align: center;
   color: #fff;
