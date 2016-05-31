@@ -9,17 +9,13 @@ p{
        font-size:44px;
 }
 
-@media (min-width: 768)
-{
-       body
-       {
-           font-size: 17px; 
-       }
-       p
-       {
-           font-size:24px;
-       }
-}
+@media only screen and (max-width: 800px) {
+                    body { font-size:100%;}
+        }  
+     
+    @media only screen and (max-width: 1100px) {
+                    body { font-size:120%;}
+        } 
 
 
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,200,300,800);
@@ -91,7 +87,7 @@ p{
 .hovereffect a, .hovereffect p {
   color: #FFFFFF;
   font-family: 'Raleway', Arial, sans-serif;
-  font-size: 17px;
+  font-size: 100%;
   opacity: 0;
   filter: alpha(opacity=0);
   -webkit-transition: opacity 0.35s, -webkit-transform 0.45s;
