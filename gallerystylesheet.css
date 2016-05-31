@@ -3,19 +3,10 @@
 body {
   background: -webkit-linear-gradient(45deg, #ff89e9 0%, #05abe0 100%);
   background: linear-gradient(45deg, #ff89e9 0%,#05abe0 100%);
-  font-size: 22px; 
 }
 
-@media only screen and (max-width: 800px) {
-                    body { font-size:100%;}
-        }  
-     
-    @media only screen and (max-width: 1100px) {
-                    body { font-size:120%;}
-        } 
 
-
-.header { padding:7em 0; }
+.header { padding:17em 0; }
 
 .hovereffect {
   width: 100%;
@@ -70,7 +61,6 @@ body {
   right: 20px;
   bottom: 20px;
   left: 20px;
-  border: 1px solid #fff;
   content: '';
   opacity: 0;
   filter: alpha(opacity=0);
