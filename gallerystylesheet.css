@@ -17,9 +17,6 @@ body {
   color: #fff;
   position: relative;
   cursor: default;
-  background: -webkit-linear-gradient(45deg, #ff89e9 0%, #05abe0 100%);
-  background: linear-gradient(45deg, #ff89e9 0%,#05abe0 100%);
-  
 }
 
 .hovereffect .overlay {
@@ -35,6 +32,8 @@ body {
   text-align: center;
   background: -webkit-linear-gradient(45deg, #ff89e9 0%, #05abe0 100%);
   background: linear-gradient(45deg, #ff89e9 0%,#05abe0 100%);
+  border: -webkit-linear-gradient(45deg, #ff89e9 0%, #05abe0 100%);
+  border: linear-gradient(45deg, #ff89e9 0%,#05abe0 100%);
 }
 
 .hovereffect img {
