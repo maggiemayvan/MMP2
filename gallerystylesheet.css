@@ -33,6 +33,8 @@ body {
   font-size:10em;
   padding: 1em;
   text-align: center;
+  background: -webkit-linear-gradient(45deg, #ff89e9 0%, #05abe0 100%);
+  background: linear-gradient(45deg, #ff89e9 0%,#05abe0 100%);
 }
 
 .hovereffect img {
