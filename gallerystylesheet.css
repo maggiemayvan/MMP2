@@ -38,10 +38,11 @@ body {
   height: 100%;
   position: absolute;
   overflow: scroll;
+  cursor: all-scroll;
   top: 0;
   left: 0;
-  padding: 3em;
-  text-align: left;
+  padding: 1em;
+  text-align: center;
 }
 
 .hovereffect img {
