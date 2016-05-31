@@ -119,7 +119,7 @@ position: absolute;
 }
   
   .clearfix {
-  overflow: auto;
+  overflow: initial;
 }
   
 
