@@ -50,7 +50,7 @@ body {
   position: relative;
   background-color: transparent;
   padding: 15% 0 10px 0;
-  text-align: left;
+text-align: center;
 }
 
 .hovereffect .overlay:before {
@@ -72,6 +72,7 @@ body {
   color: #FFFFFF;
   font-size: 50%;
   opacity: 0;
+  text-align: center;
   filter: alpha(opacity=0);
   -webkit-transition: opacity 0.35s, -webkit-transform 0.45s;
   transition: opacity 0.35s, transform 0.45s;
