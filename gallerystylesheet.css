@@ -24,12 +24,10 @@ body {
   height: 100%;
   position: absolute;
   overflow: scroll;
-  cursor: all-scroll;
-  scrollbar-base-color: linear-gradient(45deg, #ff89e9 0%,#05abe0 100%);
+  cursor: scroll;
   top: 0;
   left: 0;
   font-size:10em;
-  padding: 1em;
   text-align: center;
 }
 
@@ -69,7 +67,7 @@ text-align: center;
 
 .hovereffect a, .hovereffect p {
   color: #FFFFFF;
-  font-size: 50%;
+  font-size: 30%;
   opacity: 0;
   text-align: center;
   filter: alpha(opacity=0);
