@@ -70,7 +70,7 @@ body {
 
 .hovereffect a, .hovereffect p {
   color: #FFFFFF;
-  font-size: 100%;
+  font-size: 50%;
   opacity: 0;
   filter: alpha(opacity=0);
   -webkit-transition: opacity 0.35s, -webkit-transform 0.45s;
