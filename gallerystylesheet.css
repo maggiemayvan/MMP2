@@ -24,7 +24,7 @@ body {
   height: 100%;
   position: absolute;
   overflow: scroll;
-  cursor: scroll;
+  cursor: all-scroll;
   scrollbar-base-color: linear-gradient(45deg, #ff89e9 0%,#05abe0 100%);
   top: 0;
   left: 0;
