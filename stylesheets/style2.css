@@ -1077,14 +1077,14 @@ html {
 .mbr-header__text {
   display: block;
   font-size: 25px;
-  font-color:  #6CC417;
+  color:  #6CC417;
   font-weight: bold;
   letter-spacing: 6px;
   line-height: 1.5em;
   margin: 0;
 }
 .mbr-header__subtext {
-  font-color: #F87217;
+  color: #F87217;
   font-size: 14px;
   font-style: italic;
   letter-spacing: 1px;
