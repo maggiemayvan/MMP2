@@ -802,7 +802,7 @@ html {
   display: block;
 }
 .mbr-hero {
-  color: #fff;
+  color: #689f38;
   position: relative;
 }
 .mbr-hero__text {
@@ -1077,7 +1077,7 @@ html {
 .mbr-header__text {
   display: block;
   font-size: 25px;
-  color:  #007E33;
+  color:  #689f38;
   font-weight: bold;
   letter-spacing: 6px;
   line-height: 1.5em;
