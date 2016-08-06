@@ -5,12 +5,6 @@ body {
   background: linear-gradient(45deg, #ff89e9 0%,#05abe0 100%);
 }
 
-header {
-width: 100%;
-height: 100%;
-float: top;
-}
-
 
 .hovereffect {
   width: 100%;
@@ -179,7 +173,4 @@ position: absolute;
       margin:0 auto 0 auto;
       padding:5px;
       border:1px solid #cccccc;
-      background: -webkit-linear-gradient(45deg, #ff89e9 0%, #05abe0 100%);
-  background: linear-gradient(45deg, #ff89e9 0%,#05abe0 100%);
-	
 }
